@@ -1,0 +1,71 @@
+html {
+
+}
+
+body {
+	
+	/*background-position: 0px -150px;*/
+	/*background-position: top;*/
+	background-image: url("newbackground.png");
+	/*background-size: 1860px;*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.navbar {
+	box-shadow: 4px 4px 5px rgba(99, 101, 106, 0.5);
+}
+
+h1 {
+	/*position:center;*/
+	font-weight: 300;
+	/*max-width: 500px;*/
+	font-family: "Permanent Marker";
+	color: grey;
+	text-shadow: 1px 1px 3px #000;
+	height: 100%;
+	width: 100%;
+	margin-top: 110px;
+	margin-bottom: 40px;
+	text-align: center;
+	/*margin-right:350px;*/
+	/*width:600px;*/
+	/*text-overflow: auto;*/
+}
+
+.btn {
+	display:inline-flex;
+	/*flex-wrap: nowrap;*/
+	left: 3%;
+	bottom: 20%;
+	right: 50%;
+	top: 10%;
+
+	/*align-items:start;*/
+	justify-content: center;
+	margin-top: 630px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	align-content: flex-start;
+
+	transition: .5s ease;
+	/*size: 50px 100px;*/
+	box-shadow: 4px 4px 5px rgba(99, 101, 106, 0.5);
+	/*align-items: center;*/
+	height: 0%;
+	width: 7%;
+	/*margin-left: 250px;
+	margin-top: 10px;*/
+	/*justify-content: flex-end;*/
+}
+
+#btn {
+
+}
+
+.btn:hover {
+	transform:scale(1.05);
+}
